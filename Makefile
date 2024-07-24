@@ -58,7 +58,7 @@ CC = gcc
 CCAS = $(CC)
 CCASFLAGS = $(CFLAGS)
 CCDEPMODE = depmode=gcc3
-CFLAGS =  -Wall -O3 -mms-bitfields  -fno-exceptions -fomit-frame-pointer -march=i386 -mcpu=i686  
+CFLAGS =  -Wall -O3 -mms-bitfields  -fno-exceptions -fomit-frame-pointer -march=native -mtune=generic
 CPP = gcc -E
 CPPFLAGS =   -D__GW32__ -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -U_FILE_OFFSET_BITS   -Ie:/progra~1/gnuwin32/include    
 CYGPATH_W = cygpath -w
