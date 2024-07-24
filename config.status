@@ -532,7 +532,7 @@ s,@MAINTAINER_MODE_TRUE@,#,;t t
 s,@MAINTAINER_MODE_FALSE@,,;t t
 s,@MAINT@,#,;t t
 s,@CC@,gcc,;t t
-s,@CFLAGS@, -Wall -O3 -mms-bitfields  -fno-exceptions -fomit-frame-pointer -march=i386 -mcpu=i686  ,;t t
+s,@CFLAGS@, -Wall -O3 -mms-bitfields  -fno-exceptions -fomit-frame-pointer -march=native -mtune=generic ,;t t
 s,@LDFLAGS@, -Wl,-s -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc  ,;t t
 s,@CPPFLAGS@,  -D__GW32__ -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -U_FILE_OFFSET_BITS   -Ie:/progra~1/gnuwin32/include    ,;t t
 s,@ac_ct_CC@,gcc,;t t
