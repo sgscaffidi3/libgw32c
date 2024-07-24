@@ -2064,8 +2064,8 @@ See \`config.log' for more details." >&2;}
 echo "$as_me:$LINENO:" \
      "checking for C compiler version" >&5
 ac_compiler=`set X $ac_compile; echo $2`
-{ (eval echo "$as_me:$LINENO: \"$ac_compiler --version </dev/null >&5\"") >&5
-  (eval $ac_compiler --version </dev/null >&5) 2>&5
+{ (eval echo "$as_me:$LINENO: \"$ac_compiler --version </dev/null> 2&\"") >&5
+  (eval $ac_compiler --version </dev/null>) 2>&
   ac_status=$?
   echo "$as_me:$LINENO: \$? = $ac_status" >&5
   (exit $ac_status); }
